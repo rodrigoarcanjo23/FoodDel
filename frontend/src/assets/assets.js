@@ -152,14 +152,14 @@ export const food_list = [
         image: food_5,
         price: 14,
         description: "Food provides essential nutrients for overall health and well-being",
-        category: "Rolos"
+        category: "Rolls"
     }, {
         _id: "6",
         name: "Peri Peri Rolls",
         image: food_6,
         price: 12,
         description: "Food provides essential nutrients for overall health and well-being",
-        category: "Rolos"
+        category: "Rolls"
     }, {
         _id: "7",
         name: "Chicken Rolls",
