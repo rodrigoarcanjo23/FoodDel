@@ -33,4 +33,30 @@ O projeto está dividido em três pacotes principais:
 
 1. Faça o clone deste repositório:
    ```bash
-   git clone https://github.com/seu-usuario/nome-do-repositorio.git
+   git clone https://github.com/rodrigoarcanjo23/FoodDel.git
+   ```
+2.   - Navegue até o diretório do projeto:
+   ```
+   cd nome-do-repositorio
+   ```
+3.  - Instale as dependências do npm para os três pacotes (Frontend, Backend e Admin):
+   ```
+   npm install
+   ```
+4. - Inicie cada parte do projeto:
+     
+   * Frontend: No terminal, dentro da pasta frontend, use o comando:
+     ```
+     npm run dev
+     ```
+   * Backend: No terminal, dentro da pasta backend, use o comando:
+     ```
+     npm run server
+     ```
+   * Admin: No terminal, dentro da pasta admin, use o comando:
+     ```
+     npm run dev
+     ```
+   
+
+   
