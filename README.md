@@ -15,7 +15,7 @@ Com esta aplicação, você pode:
 - **[React.js](https://github.com/facebook/react)**: para a construção da interface do usuário.
 - **[MongoDB](https://www.mongodb.com/products/platform/atlas-database)**: banco de dados NoSQL para armazenar informações de produtos, pedidos e usuários.
 - **[Stripe API](https://stripe.com/br/lp/payments/payment-processing?utm_campaign=AMER_BR_en_Google_Search_Brand_Payments_EXA_PHR-21471070313&utm_medium=cpc&utm_source=google&ad_content=705911242694&utm_term=stripe+payment+processing+api&utm_matchtype=e&utm_adposition=&utm_device=c&gad_source=1&gclid=CjwKCAjwreW2BhBhEiwAavLwfM7eIn5FejM7h3xsk9SUnBsjEsEzVgFU1CAPvu5hr37oeRgi1wC46RoCEvkQAvD_BwE)**: para processamento de pagamentos.
-- **[Toastfy API](https://www.npmjs.com/package/react-toastify)**: integração para notificações e toasts.
+- **[Toastify API](https://www.npmjs.com/package/react-toastify)**: integração para notificações e toasts.
 - **[Bitetoken API](https://auth0.com/docs/quickstart/spa/react/02-calling-an-api)**: para tokenização de dados de transações.
 
 ## Estrutura do Projeto
