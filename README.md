@@ -1,62 +1,41 @@
 # Sistema de Delivery para Restaurante
 
-## Descrição
-Este é um projeto fullstack desenvolvido como solução para um sistema de delivery para restaurantes. Utilizando **React.js** no frontend, **MongoDB** no banco de dados, e integrando com APIs como **Stripe**, **Toast**, e **Bitetoken**, a aplicação oferece todos os recursos necessários para gerenciar um site de delivery completo.
+Um sistema que permite aos restaurantes divulgar seu cardápio online, receber pedidos e gerenciar entregas sem depender de aplicativos terceiros, aumentando o alcance e reduzindo custos operacionais.
 
-## Funcionalidades
-Com esta aplicação, você pode:
-- **Criar um cardápio** com fotos dos pratos e preços.
-- **Elaborar categorias** e filtrar dinamicamente por tipos de pratos.
-- **Painel de administrador**: adicionar, remover ou alterar produtos e categorias. Também permite visualizar o status dos pedidos e notificar o cliente sobre o andamento do pedido (em preparo ou pronto para entrega).
-- **Cadastro de usuários**: permitindo registro com e-mail, endereço, e gerenciamento do carrinho de compras.
-- **Sistema de pagamentos**, incluindo cálculo de taxa de entrega.
+## Principais funcionalidades
+- **Cardápio com fotos** dos pratos.
+- **Categorias filtráveis** para facilitar a busca.
+- **Painel administrativo** para gerenciar pedidos e produtos.
+- **Cadastro de usuários** com endereço e carrinho.
+- **Pagamentos** integrados.
 
-## Tecnologias Utilizadas
-- **[React.js](https://github.com/facebook/react)**: para a construção da interface do usuário.
-- **[MongoDB](https://www.mongodb.com/products/platform/atlas-database)**: banco de dados NoSQL para armazenar informações de produtos, pedidos e usuários.
-- **[Stripe API](https://stripe.com/br/lp/payments/payment-processing?utm_campaign=AMER_BR_en_Google_Search_Brand_Payments_EXA_PHR-21471070313&utm_medium=cpc&utm_source=google&ad_content=705911242694&utm_term=stripe+payment+processing+api&utm_matchtype=e&utm_adposition=&utm_device=c&gad_source=1&gclid=CjwKCAjwreW2BhBhEiwAavLwfM7eIn5FejM7h3xsk9SUnBsjEsEzVgFU1CAPvu5hr37oeRgi1wC46RoCEvkQAvD_BwE)**: para processamento de pagamentos.
-- **[Toastfy API](https://www.npmjs.com/package/react-toastify)**: integração para notificações e toasts.
-- **[Bitetoken API](https://auth0.com/docs/quickstart/spa/react/02-calling-an-api)**: para tokenização de dados de transações.
+## Stack e arquitetura
+- **frontend/** – Aplicação em React.js responsável pela vitrine do cardápio e fluxo de pedidos.
+- **backend/** – API em Node.js/Express com MongoDB para persistência, Stripe para pagamentos e Toastify/Bitetoken para notificações e autenticação.
+- **admin/** – Painel em React.js para controlar produtos, categorias e status dos pedidos.
 
-## Estrutura do Projeto
-O projeto está dividido em três pacotes principais:
-1. **Frontend**: Interface do usuário, gerenciando a visualização do cardápio e pedidos.
-2. **Backend**: Gerenciamento de dados, comunicação com o banco de dados e APIs.
-3. **Admin**: Painel administrativo para gerenciar produtos, categorias e status de pedidos.
-
-## Instalação
-
-### Requisitos:
-- **Node.js** e **npm** instalados em sua máquina.
-
-### Passo-a-passo:
-
-1. Faça o clone deste repositório:
+## Instalação e execução
+1. Clone o repositório:
    ```bash
-   git clone https://github.com/rodrigoarcanjo23/FoodDel.git
+   git clone https://github.com/rodrigoarcanjo23/FoodDel.git && cd FoodDel
    ```
-2.   - Navegue até o diretório do projeto:
-   ```
-   cd nome-do-repositorio
-   ```
-3.  - Instale as dependências do npm para os três pacotes (Frontend, Backend e Admin):
-   ```
+2. Instale as dependências em `frontend`, `backend` e `admin`:
+   ```bash
    npm install
    ```
-4. - Inicie cada parte do projeto:
-     
-   * Frontend: No terminal, dentro da pasta frontend, use o comando:
-     ```
-     npm run dev
-     ```
-   * Backend: No terminal, dentro da pasta backend, use o comando:
-     ```
-     npm run server
-     ```
-   * Admin: No terminal, dentro da pasta admin, use o comando:
-     ```
-     npm run dev
-     ```
-   
+3. Inicie cada módulo:
+   ```bash
+   # backend
+   cd backend && npm run server
+   # frontend
+   cd ../frontend && npm run dev
+   # admin
+   cd ../admin && npm run dev
+   ```
 
-   
+## Contato/Autor
+- LinkedIn: [Rodrigo Arcanjo](https://www.linkedin.com/in/rodrigo-arcanjo)
+- GitHub: [rodrigoarcanjo23](https://github.com/rodrigoarcanjo23)
+
+### Summary (English)
+Food delivery platform for restaurants with a React.js interface, Node.js/Express API backed by MongoDB, and Stripe-powered payments. It helps venues publish menus, manage orders and serve customers directly.
